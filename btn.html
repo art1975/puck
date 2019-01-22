@@ -53,6 +53,12 @@
           }, 1500);
         });
       });
+     var fs = require('fs');
+     fs.writeFile("data.txt", jsonData, function(err) {
+     if (err) {
+        console.log(err);
+       }
+    });
   }
   </script>
   <h1>Your data</h1>
