@@ -1,6 +1,6 @@
 <?php
  
-require 'connection.php';
+/*require 'connection.php';
 $conn   = Connect();
 $light  = $conn->real_escape_string($_POST['light']);
 $temp   = $conn->real_escape_string($_POST['temp']);
@@ -12,11 +12,11 @@ $success = $conn->query($query);
 if (!$success) {
     die("Couldn't enter data: ".$conn->error);
  
-}
+}*/
  
 echo "Thanks for data";
   
  
-$conn->close();
+//$conn->close();
  
 ?>
